@@ -1,0 +1,59 @@
+// 渐变颜色定义
+$primary-gradient: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+$secondary-gradient: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+$success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+
+// 基础样式
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+// 全局渐变按钮
+.gradient-btn {
+  border: none;
+  color: white;
+  background-image: $primary-gradient;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+// 卡片样式
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+}
+
+// 模糊背景
+.blur-background {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+}

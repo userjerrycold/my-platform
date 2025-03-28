@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "飞书文档使用指南",
+      "url": "https://example.com/docs/feishu",
+      "tags": ["飞书"],
+      "createdAt": "2023-05-10T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "GitLab CI/CD 配置",
+      "url": "https://example.com/docs/gitlab-ci",
+      "tags": ["gitlab", "code"],
+      "createdAt": "2023-05-15T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "title": "阿里云服务器部署手册",
+      "url": "https://example.com/docs/aliyun",
+      "tags": ["阿里云"],
+      "createdAt": "2023-05-20T10:15:00Z"
+    }
+  ]
